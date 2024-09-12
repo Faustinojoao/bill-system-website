@@ -47,6 +47,15 @@
     color: rgb(160, 250, 253);
 }
 @media (max-width: 768px){
+    .cabecalho img{
+        padding: 18px;
+        height: 80px;
+        width: 87px;
+    }
+    .cabecalho img:hover{
+        height: 90px;
+        width: 97px;
+    }
     .texto{
         margin-left: 10%;
         font-size: 17px;
@@ -66,8 +75,8 @@
     .todos_os_ficheiros{
         flex-wrap: wrap;
     }
-    .todos_os_ficheiros .logopng{
-        margin-left: 140px;
+    .todos_os_ficheiros .logopng img{  
+        margin-left: 50%;
     }
     .todos_os_ficheiros .rodape{
         padding: 50px;
@@ -81,7 +90,6 @@
     .cards_of_close{
         flex-wrap: wrap;
     }
-    
 }
 footer{
     padding: 0;
@@ -93,8 +101,8 @@ footer{
 }
 .todos_os_ficheiros .logopng img{
     padding: 20px;
-   height: 170px;
-   width: 187px;
+   height: 160px;
+   width: 177px;
 }
 .todos_os_ficheiros .logopng{
     width: 30%;
